@@ -11,3 +11,5 @@
 
 ## Imagen Integrante 3
 <img src = "resultado/resultado4.png">
+
+## Soy el Integrante 3 Isaac Bolanos
