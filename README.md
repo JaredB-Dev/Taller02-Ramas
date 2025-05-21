@@ -1,13 +1,13 @@
 # Taller02-Ramas
 
 ## Imagen Lider
-<img src = "resultados/resultado1.png">
+<img src = "resultado/resultado1.png">
 
 ## Imagen Integrante 1
-<img src="resultados/resultado2.png">
+<img src="resultado/resultado2.png">
 
 ## Imagen Integrante 2
-<img src = "resultados/resultado3.png">
+<img src = "resultado/resultado3.png">
 
 ## Imagen Integrante 3
-<img src = "resultados/resultado4.png">
+<img src = "resultado/resultado4.png">
