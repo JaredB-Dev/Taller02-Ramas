@@ -8,3 +8,6 @@
 
 ## Imagen Integrante 2
 <img src = "resultado3.png">
+
+## Imagen Integrante 3
+<img src = "resultado4.png">

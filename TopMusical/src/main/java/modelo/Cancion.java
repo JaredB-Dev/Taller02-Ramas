@@ -25,7 +25,8 @@ public class Cancion implements Comparable<Cancion> {
     private int semanas;
     private List<Integer> historialPos; //lista con todas las posiciones que ha tenido en el ranking
 
-    public Cancion(String cantante, String titulo, String imagen, int posActual, int posPrevia, int semanas, List<Integer> historialPos) {
+    public Cancion(String cantante, String titulo, String imagen, int posPrevia, int semanas, List<Integer> historialPos, int posActual) {
+        this.titulo = titulo;
         this.cantante = cantante;
         this.titulo = titulo;
         this.imagen = imagen;
@@ -77,7 +78,7 @@ public class Cancion implements Comparable<Cancion> {
                 for (String h:historial){
                     listaHistorial.add(Integer.valueOf(h));
                 }
-                Cancion c = new Cancion(datos[1], datos[0], datos[2], Integer.valueOf(datos[3]), Integer.valueOf(datos[4]), Integer.valueOf(datos[5]),  listaHistorial);
+                Cancion c = new Cancion(datos[1], datos[0], datos[2], Integer.valueOf(datos[4]), Integer.valueOf(datos[5]),  listaHistorial, Integer.valueOf(datos[3]));
                 lista.add(c);
             }
         } catch (FileNotFoundException ex) {
